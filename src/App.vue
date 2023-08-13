@@ -68,7 +68,7 @@ const total = computed(() => posts.value.length);
 <template>
   <LoadingSpinner v-if="loading"></LoadingSpinner>
   <div class="container pt-3" v-else>
-    <h1>APP</h1>
+    <h1>APP_</h1>
     <h2>Mi Post Favorito: {{ favorito }}</h2>
 
     <PaginatePost
